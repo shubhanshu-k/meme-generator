@@ -1,0 +1,30 @@
+.container {
+    min-height: 100vh;
+    background-color: #111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .subheading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #bbb;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 1000px;
+  }
+  

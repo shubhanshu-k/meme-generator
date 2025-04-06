@@ -1,0 +1,33 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/styles/Home.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.Home_container__XXbpJ {
+    min-height: 100vh;
+    background-color: #111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .Home_heading__5E3x5 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .Home_subheading__qwcgv {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #bbb;
+  }
+  
+  .Home_grid__or_55 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
